@@ -32,7 +32,7 @@ const About = () => (
                 <div className="md:w-2/3">
                     <div className="bg-white/10 backdrop-blur-md rounded-2xl p-8 shadow-lg border border-white/10">
                         <p className="text-lg leading-relaxed text-blue-100 mb-6">
-                            Hello! I'm <span className="text-white font-semibold">Dhev Mugunddhan</span>, a recent graduate with a Bachelor of Technology in
+                            Hello! I&apos;m <span className="text-white font-semibold">Dhev Mugunddhan</span>, a recent graduate with a Bachelor of Technology in
                             <strong className="text-white font-semibold"> AI and Data Science</strong> from Shiv Nadar University Chennai 
                             (<strong className="text-white font-semibold">CGPA: 9.3/10.0</strong>). I am passionate about crafting innovative and impactful data-driven solutions.
                         </p>
