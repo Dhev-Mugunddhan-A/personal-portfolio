@@ -11,7 +11,7 @@ import Contact from "@/components/Contact";
 export default function Home() {
   return (
     <>
-      <Hero />
+      {/* <Hero /> */}
       <About />
       <Experience />
       <Education />

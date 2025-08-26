@@ -1,10 +1,8 @@
-import React from 'react';
-
-const BriefcaseIcon = () => (
-    <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 mr-3 text-blue-600 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-        <path strokeLinecap="round" strokeLinejoin="round" d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
-    </svg>
-);
+import React from "react";
+import Image from "next/image";
+import hcllogo from "../Images/hcllogo.png";
+import internshalalogo from "../Images/InternShala-logo.png";
+import academorlogo from "../Images/ACADEMOR.png";
 
 const Experience = () => {
     const experiences = [
@@ -12,41 +10,80 @@ const Experience = () => {
             role: "AI & Data Science Intern",
             company: "HCL Technologies, Chennai",
             duration: "May 2024 - July 2024",
+            logo: hcllogo,
             points: [
                 "Developed and evaluated forecasting models to predict commodity prices, identifying SARIMAX as the most effective model.",
                 "Deployed the model as a web application using backend APIs and integrated it with a frontend.",
                 "Designed database schema and created a PostgreSQL database on Azure cloud, building the entire data lifecycle.",
-                "Ideated GenAI solutions for the Supply Chain domain and presented them to leadership."
-            ]
+                "Ideated GenAI solutions for the Supply Chain domain and presented them to leadership.",
+            ],
         },
         {
             role: "Paid AI & Data Science Content Creator",
             company: "Internshala Data & AI Club",
             duration: "Oct 2023 - Feb 2024",
+            logo: internshalalogo,
             points: [
                 "Collaborated with a community of creators, curating around 70 high-quality posts on hot topics in the AI and Data Science domain.",
-                "Guided nascent creators and consistently met deadlines amidst academic responsibilities."
-            ]
-        }
+                "Guided nascent creators and consistently met deadlines amidst academic responsibilities.",
+            ],
+        },
+        {
+            role: "Student Intern",
+            company: "Academor, Remote",
+            duration: "July 2023 - Aug 2023",
+            logo: academorlogo,
+            points: [
+                "Learnt AI, ML algorithms and deploying techniques.",
+                "Drafted a report on AI Applications in Logistics: Opportunities and Ethical Considerations based in Australia.",
+            ],
+        },
     ];
 
     return (
-        <section id="experience" className="py-20 bg-white">
+        <section
+            id="experience"
+            className="py-20 bg-gradient-to-br from-indigo-700 via-purple-700 to-blue-600 font-sans"
+        >
             <div className="container mx-auto px-6">
-                <h2 className="text-3xl font-bold text-gray-800 mb-12 text-center">Experience</h2>
-                <div className="max-w-4xl mx-auto">
+                {/* Heading */}
+                <h2 className="text-4xl font-extrabold text-center text-white mb-14 tracking-tight">
+                    Experience
+                </h2>
+
+                {/* Experience Cards */}
+                <div className="max-w-5xl mx-auto space-y-10">
                     {experiences.map((exp, index) => (
-                        <div key={index} className="mb-8 p-6 bg-gray-50 rounded-lg shadow-sm">
-                            <div className="flex items-start mb-2">
-                                <BriefcaseIcon />
+                        <div
+                            key={index}
+                            className="p-8 bg-white/10 backdrop-blur-md rounded-2xl shadow-lg border border-white/20 hover:bg-white/20 transition-all duration-300"
+                        >
+                            <div className="flex justify-between items-start mb-5">
                                 <div>
-                                    <h3 className="text-xl font-bold text-gray-800">{exp.role}</h3>
-                                    <p className="text-gray-600 font-semibold">{exp.company}</p>
-                                    <p className="text-gray-500 text-sm mb-4">{exp.duration}</p>
+                                    <h3 className="text-2xl font-bold text-white">
+                                        {exp.role}
+                                    </h3>
+                                    <p className="text-indigo-100 font-medium text-lg">
+                                        {exp.company}
+                                    </p>
+                                    <p className="text-indigo-200 text-sm mt-1">
+                                        {exp.duration}
+                                    </p>
                                 </div>
+                                <Image
+                                    src={exp.logo}
+                                    alt={`${exp.company} logo`}
+                                    className="object-contain flex-shrink-0 ml-4 rounded-lg border border-white/30"
+                                    height={100}
+                                    width={100}
+                                />
                             </div>
-                            <ul className="list-disc list-inside text-gray-700 space-y-2 pl-9">
-                                {exp.points.map((point, i) => <li key={i}>{point}</li>)}
+
+                            {/* Points */}
+                            <ul className="list-disc list-inside text-indigo-100 space-y-2 ml-5 leading-relaxed">
+                                {exp.points.map((point, i) => (
+                                    <li key={i}>{point}</li>
+                                ))}
                             </ul>
                         </div>
                     ))}
@@ -55,4 +92,5 @@ const Experience = () => {
         </section>
     );
 };
+
 export default Experience;

@@ -1,12 +1,7 @@
-import React from 'react';
-
-const AcademicCapIcon = () => (
-    <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 mr-3 text-blue-600 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-        <path d="M12 14l9-5-9-5-9 5 9 5z" />
-        <path d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-5.998 12.078 12.078 0 01.665-6.479L12 14z" />
-        <path strokeLinecap="round" strokeLinejoin="round" d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-5.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222 4 2.222V20M1 12v7a2 2 0 002 2h18a2 2 0 002-2v-7" />
-    </svg>
-);
+import React from "react";
+import Image from "next/image";
+import snulogo from "../Images/snulogo.jpeg";
+import cvmlogo from "../Images/CVMKRR-Logo.jpg";
 
 const Education = () => {
     const educations = [
@@ -14,31 +9,71 @@ const Education = () => {
             degree: "B.Tech in Artificial Intelligence and Data Science",
             institution: "Shiv Nadar University, Chennai, India",
             duration: "2021 - 2025",
-            score: "CGPA: 9.3 / 10.0"
+            score: "CGPA: 9.3 / 10.0",
+            logo: snulogo,
         },
         {
             degree: "CBSE Grade 12",
             institution: "Chettinad Vidya Mandir, Karur, India",
             duration: "2020 - 2021",
-            score: "Marks: 96.4%"
-        }
+            score: "Marks: 96.4%",
+            logo: cvmlogo,
+        },
+        {
+            degree: "CBSE Grade 10",
+            institution: "Chettinad Vidya Mandir, Karur, India",
+            duration: "2018 - 2019",
+            score: "Marks: 92.8%",
+            logo: cvmlogo,
+        },
     ];
 
     return (
-        <section id="education" className="py-20 bg-gray-50">
+        <section
+            id="education"
+            className="py-20 bg-gradient-to-br from-blue-900 via-indigo-800 to-violet-900 font-sans"
+        >
             <div className="container mx-auto px-6">
-                <h2 className="text-3xl font-bold text-gray-800 mb-12 text-center">Education</h2>
-                <div className="max-w-4xl mx-auto grid md:grid-cols-2 gap-8">
+                {/* Section Heading */}
+                <h2 className="text-4xl font-extrabold text-center text-blue-100 mb-14 tracking-tight drop-shadow-lg">
+                    Education
+                </h2>
+
+                {/* Education Cards Grid */}
+                <div className="max-w-5xl mx-auto grid md:grid-cols-1 lg:grid-cols-2 gap-10">
                     {educations.map((edu, index) => (
-                        <div key={index} className="p-6 bg-white rounded-lg shadow-sm">
-                            <div className="flex items-start mb-2">
-                                <AcademicCapIcon />
+                        <div
+                            key={index}
+                            className="p-6 bg-blue-950/50 backdrop-blur-lg rounded-2xl shadow-xl 
+                                       border border-blue-700/40 hover:border-blue-400 
+                                       hover:shadow-blue-400/20 transition-all duration-300"
+                        >
+                            <div className="flex justify-between items-start gap-4">
+                                {/* Text Block */}
                                 <div>
-                                    <h3 className="text-xl font-bold text-gray-800">{edu.degree}</h3>
-                                    <p className="text-gray-600 font-semibold">{edu.institution}</p>
-                                    <p className="text-gray-500 text-sm mb-2">{edu.duration}</p>
-                                    <p className="text-gray-700 font-bold">{edu.score}</p>
+                                    <h3 className="text-xl font-bold text-blue-100">
+                                        {edu.degree}
+                                    </h3>
+                                    <p className="text-blue-300 font-medium">
+                                        {edu.institution}
+                                    </p>
+                                    <p className="text-indigo-300 text-sm mt-1">
+                                        {edu.duration}
+                                    </p>
+                                    <p className="text-cyan-200 font-semibold mt-2">
+                                        {edu.score}
+                                    </p>
                                 </div>
+
+                                {/* Logo */}
+                                <Image
+                                    src={edu.logo}
+                                    alt={`${edu.institution} logo`}
+                                    width={90}
+                                    height={90}
+                                    className="object-contain rounded-lg flex-shrink-0 ml-4 
+                                               border border-blue-400/30 shadow-md shadow-blue-400/30"
+                                />
                             </div>
                         </div>
                     ))}
@@ -47,4 +82,5 @@ const Education = () => {
         </section>
     );
 };
+
 export default Education;
