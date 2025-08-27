@@ -27,12 +27,6 @@ const Contact = () => (
                         mugunddhan3@gmail.com
                     </a>
                 </p>
-                <p className="flex items-center gap-3 text-lg font-medium text-white/90 hover:text-cyan-300 transition">
-                    <Phone className="w-5 h-5" />
-                    <a href="tel:+919597469754" className="hover:underline">
-                        +91 9597469754
-                    </a>
-                </p>
             </div>
 
             {/* Email Button

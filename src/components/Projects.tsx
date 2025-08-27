@@ -4,6 +4,8 @@ import skinlesion from '../Images/skinlesion.jpeg';
 import textsum from '../Images/textsum.png';
 import movierec from '../Images/movierec.png';
 import javaapp from '../Images/java-app.png';
+import heuristic from '../Images/heuristic.png';
+import { title } from 'process';
 
 const ProjectCard = ({ title, imagePath, description, tags, githubLink }: { 
     title: string,
@@ -54,13 +56,7 @@ const Projects = () => {
             tags: ["PyTorch", "Keras 3", "OpenCV", "Scikit-learn"],
             githubLink: "https://github.com/Dhev-Mugunddhan-A/SKIN-LESION-CLASSIFICATION"
         },
-        {
-            title: "Factual Consistency of Text Summarization",
-            imagePath: textsum,
-            description: "Evaluated abstractive text summarization by performing NLP preprocessing and generating sentence embeddings using various models like TF-IDF and BERT.",
-            tags: ["PyTorch", "NLTK", "SpaCy", "HuggingFace"],
-            githubLink: "https://github.com/Dhev-Mugunddhan-A/"
-        },
+        
         {
             title: "Movie Recommendation System",
             imagePath: movierec,
@@ -69,11 +65,25 @@ const Projects = () => {
             githubLink: "https://github.com/Dhev-Mugunddhan-A/Movie-recommendation-system-on-web-with-flask"
         },
         {
+            title: "Factual Consistency of Text Summarization",
+            imagePath: textsum,
+            description: "Evaluated abstractive text summarization by performing NLP preprocessing and generating sentence embeddings using various models like TF-IDF and BERT.",
+            tags: ["PyTorch", "NLTK", "SpaCy", "HuggingFace"],
+            githubLink: "https://github.com/Dhev-Mugunddhan-A/"
+        },
+        {
             title: "Multipurpose To-Do List Creator",
             imagePath: javaapp,
             description: "This project is a versatile Java-based GUI application designed to simplify daily organizational tasks. Built using JSwing and AWT events, it offers a user-friendly interface for creating and managing various types of lists.",
             tags: ["Java", "JSwing", "AWT Events", "GUI Programming"],
             githubLink: "https://github.com/Dhev-Mugunddhan-A/multipurpose-to-do-list-creator-GUI-using-Java"
+        },
+        {
+            title: "Neural Network weight optimization using meta heuristic algorithms", 
+            imagePath: heuristic,
+            description: "This project optimizes an Artificial Neural Network's (ANN) weights for a classification problem using three meta-heuristic algorithms. It compares the performance of Ant Colony Optimization (ACO), Particle Swarm Optimization (PSO), and Genetic Algorithms (GA) to determine which nature-inspired method most effectively improves the ANN's accuracy and efficiency.",
+            tags: ["Python", "Tensorflow","Scikit-Learn","Pandas","Matplotlib","OOPS"],
+            githubLink: "https://github.com/Dhev-Mugunddhan-A/Neural-Network-weight-optimization-using-meta-heuristic-algorithms"
         }
     ];
 

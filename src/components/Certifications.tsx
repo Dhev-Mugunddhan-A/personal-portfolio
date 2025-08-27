@@ -21,10 +21,15 @@ const Certifications = () => {
         { name: "Blockchain & its applications - NPTEL (Top 5%)", issuer: "NPTEL", link: "https://drive.google.com/file/d/1bNf_HyCbfbZKinE-oqY0S0ymtoUFf1Uq/view?usp=sharing" },
         { name: "System Design For Sustainability - NPTEL (Top 2%)", issuer: "NPTEL", link: "https://drive.google.com/file/d/1O8i4bdsHsD3Oioowku380G_4qckg8aXr/view?usp=sharing" },
         { name: "Deep Learning Specialization", issuer: "Coursera", link: "https://www.coursera.org/account/accomplishments/specialization/FLJBCA4NTNJK?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=s12n" },
+        { name: "Big Data 101", issuer: "IBM", link: "https://drive.google.com/file/d/1sEhMVfxozhWeoPW6mRcZDD463tfAcUu9/view?usp=sharing" },
+        { name: "SQL for Data Analytics" , issuer: "Internshala Trainings", link: "https://drive.google.com/file/d/1vkJ3yDbYXmTANtZKH_BXrNywzeO07uC6/view?usp=sharing"},
+        { name: "Git Essential Trainings", issuer:"LinkedIn Learning", link: "https://drive.google.com/file/d/1Rx9Qhp_kLpJTI4d87RUFWzT_0njShTSo/view?usp=sharing"},
+        { name: "Introduction to Quantum Computing: Quantum Algorithms and Qiskit", issuer:"NPTEL", link:"https://drive.google.com/file/d/1f04eJk-tbTXY_F1937yby3CXadSOZsSg/view?usp=sharing"},
+        { name: "Software Engineering Job Simulation", issuer: "JP Morgan Chase & Co", link:"https://drive.google.com/file/d/1h9p-xwh_wgZy0fT4FRkcaj9zYt1SyE34/view?usp=sharing"},        
     ];
 
     const achieve = [
-        { name: "Top 6 Finalist in TechViz", issuer: "BITS Pilani", link: "#certifications" },
+        { name: "Top 6 Finalist in TechViz", issuer: "BITS Pilani", link: "https://drive.google.com/file/d/1hXHltY_nzTcohcwTr1Tbbyivb4Su_ws0/view?usp=sharing" },
         { name: "LeetCode 50+ Problems Solved", issuer: "LeetCode", link: "https://leetcode.com/u/Dhev-Mugunddhan/" },
         { name: "Kaggle Expert", issuer: "Kaggle", link: "https://www.kaggle.com/dhevmugunddhana333" },
         { name: "HackerRank 3-star Silver Problem solver Badge", issuer: "HackerRank", link: "https://www.hackerrank.com/profile/mugunddhan3" },
