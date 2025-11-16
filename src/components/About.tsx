@@ -32,16 +32,12 @@ const About = () => (
                 <div className="md:w-2/3">
                     <div className="bg-white/10 backdrop-blur-md rounded-2xl p-8 shadow-lg border border-white/10">
                         <p className="text-lg leading-relaxed text-blue-100 mb-6">
-                            Hi, I&apos;m <span className="text-white font-semibold">Dhev Mugunddhan A</span> — an 
-                            <strong className="text-white font-semibold"> AI Engineer</strong> and 
-                            <strong className="text-white font-semibold"> Data Science enthusiast</strong> passionate about 
-                            building intelligent, data-driven solutions. I recently graduated with a 
-                            <strong className="text-white font-semibold"> B.Tech in AI & Data Science</strong> 
-                            (<strong className="text-white font-semibold">CGPA: 9.3/10</strong>) from 
-                            <span className="text-white font-semibold"> Shiv Nadar University, Chennai</span>.
+                            Hi, I&apos;m <span className="text-white font-semibold">Dhev Mugunddhan A</span> — a 
+                            <strong className="text-white font-semibold"> Technical Lead</strong> 
+                            at <span className="text-white font-semibold">HCL Technologies</span>, specializing in developing and deploying innovative Generative AI solutions. Graduated with a B.Tech in Artificial Intelligence and Data Science (CGPA: 9.3/10.0) from Shiv Nadar University, Chennai.
                         </p>
 
-                        <p className="text-lg leading-relaxed text-blue-100 mb-6">
+                        {/* <p className="text-lg leading-relaxed text-blue-100 mb-6">
                             I specialize in developing <strong className="text-white font-semibold">end-to-end AI models</strong>, 
                             <strong className="text-white font-semibold"> deep learning pipelines</strong>, and 
                             <strong className="text-white font-semibold"> full-stack data-driven applications</strong>. My work spans 
@@ -54,16 +50,28 @@ const About = () => (
                             <strong className="text-white font-semibold"> Keras 3</strong>, 
                             <strong className="text-white font-semibold"> PostgreSQL</strong>, and 
                             <strong className="text-white font-semibold"> cloud platforms</strong>.
-                        </p>
+                        </p> */}
 
                         <p className="text-lg leading-relaxed text-blue-100 mb-6">
-                            During my <strong className="text-white font-semibold">internship at HCL Technologies</strong>, 
-                            I built and deployed <strong className="text-white font-semibold">commodity price forecasting systems</strong>, 
-                            designed <strong className="text-white font-semibold">cloud-integrated databases</strong>, and 
-                            explored <strong className="text-white font-semibold">GenAI solutions</strong> for 
-                            <strong className="text-white font-semibold"> supply chain optimization</strong>. 
-                            I’ve also developed projects like <strong className="text-white font-semibold">skin lesion classification</strong>, 
-                            <strong className="text-white font-semibold"> abstractive summarization consistency evaluation</strong>, 
+                            During my <strong className="text-white font-semibold">tenure at HCL Technologies</strong>, 
+                            I have contributed across multiple roles, progressing from an intern to a 
+                            <strong className="text-white font-semibold">Technical Lead</strong>. 
+                            In my current position, I architected a 
+                            <strong className="text-white font-semibold">proactive monitoring system powered by Generative AI agents</strong> 
+                            (LangChain, OpenAI) capable of autonomously parsing logs, detecting failures, and generating 
+                            intelligent healing recommendations. I engineered a 
+                            <strong className="text-white font-semibold">prompt-driven action generator</strong> to draft corrective 
+                            messages for classified failures and integrated the system with 
+                            <strong className="text-white font-semibold">Microsoft Teams using the Graph API</strong>, enabling a 
+                            fully automated, self-healing operational workflow.
+                            <br /><br />
+                            Earlier, as an intern, I developed and deployed 
+                            <strong className="text-white font-semibold">commodity price forecasting systems</strong>, designed 
+                            <strong className="text-white font-semibold">cloud-integrated databases</strong>, and explored 
+                            <strong className="text-white font-semibold">GenAI-driven supply chain optimization</strong>. 
+                            I have also built projects such as 
+                            <strong className="text-white font-semibold">skin lesion classification models</strong>, 
+                            <strong className="text-white font-semibold">abstractive summarization consistency evaluators</strong>, 
                             and a <strong className="text-white font-semibold">Flask-based movie recommendation system</strong>.
                         </p>
 

@@ -7,6 +7,16 @@ import academorlogo from "../Images/ACADEMOR.png";
 const Experience = () => {
     const experiences = [
         {
+            role: "Technical Lead",
+            company: "HCL Technologies, Noida, Uttar Pradesh",
+            duration: "Sep 2025 - Present",
+            logo: hcllogo,
+            points: [
+                " Developed a proactive monitoring system using Generative AI agents (LangChain, OpenAI) to autonomously parse logs, detect failures, and generate healing suggestions. Engineered a prompt-based action generator to draft corrective messages from classified failures. Integrated the AI output with MS Teams via the Graph API, enabling a fully automated self-healing workflow." 
+            ],
+        },
+        
+        {
             role: "AI & Data Science Intern",
             company: "HCL Technologies, Chennai",
             duration: "May 2024 - July 2024",
