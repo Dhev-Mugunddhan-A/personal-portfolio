@@ -33,7 +33,7 @@ const About = () => (
                     <div className="bg-white/10 backdrop-blur-md rounded-2xl p-8 shadow-lg border border-white/10">
                         <p className="text-lg leading-relaxed text-blue-100 mb-6">
                             Hi, I&apos;m <span className="text-white font-semibold">Dhev Mugunddhan A</span> — a  
-                            <strong className="text-white font-semibold"> Technical Lead</strong> 
+                            <strong className="text-white font-semibold"> Technical Lead </strong> 
                              at <span className="text-white font-semibold">HCLTech</span>, specializing in developing and deploying innovative Generative AI solutions. Graduated with a B.Tech in Artificial Intelligence and Data Science (CGPA: 9.3/10.0) from Shiv Nadar University, Chennai.
                         </p>
 
