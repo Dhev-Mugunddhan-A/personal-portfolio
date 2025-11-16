@@ -9,7 +9,7 @@ const SkillBadge = ({ skill }: { skill: string }) => (
 
 const Skills = () => {
     const programmingLanguages = ["Python", "Java", "C", "MySQL", "PostgreSQL", "JavaScript", "HTML/CSS", "MERN", "Bash"];
-    const librariesFrameworks = ["TensorFlow", "Keras 3", "PyTorch", "HuggingFace", "OpenCV", "Librosa", "Flask", "Hadoop", "PySpark", "MLFlow", "Plotly", "Pandas", "scikit-learn", "NLTK", "Spacy"];
+    const librariesFrameworks = ["TensorFlow", "Keras 3", "PyTorch", "Langchain","Azure OpenAI","CrewAI","Pydantic","Elasticsearch","Neo4j", "HuggingFace", "OpenCV", "Librosa", "Flask", "Hadoop", "PySpark", "MLFlow", "Plotly", "Pandas", "scikit-learn", "NLTK", "Spacy"];
     const otherTools = ["Tableau", "Excel", "Docker", "Git/GitHub/GitLab", "PgAdmin4", "AWS Sagemaker", "AWS Cloud Services"];
     const languages = ["English - Fluent", "Tamil - Native", "Hindi - Basic"];
 

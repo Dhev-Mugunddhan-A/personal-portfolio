@@ -17,6 +17,9 @@ const SparklesIcon = () => (
 
 const Certifications = () => {
     const certs = [
+        { name: "Multi AI agent system with crewAI", issuer: "DeepLearning.ai", link:""},
+        { name: "Knowledge RAG agent with Neo4j", issuer: "DeepLearning.ai", link:""},
+        { name: "LLMOps with CircleCI", issuer: "DeepLearning.ai", link:""},
         { name: "Programming in Java - NPTEL (Top 5% Elite+Gold)", issuer: "NPTEL", link: "https://drive.google.com/file/d/1AqWrBWCiILhuZclKQWAUOC2qUg6Rj-wF/view?usp=share_link" },
         { name: "Blockchain & its applications - NPTEL (Top 5%)", issuer: "NPTEL", link: "https://drive.google.com/file/d/1bNf_HyCbfbZKinE-oqY0S0ymtoUFf1Uq/view?usp=sharing" },
         { name: "System Design For Sustainability - NPTEL (Top 2%)", issuer: "NPTEL", link: "https://drive.google.com/file/d/1O8i4bdsHsD3Oioowku380G_4qckg8aXr/view?usp=sharing" },
