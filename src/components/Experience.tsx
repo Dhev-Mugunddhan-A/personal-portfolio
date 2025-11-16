@@ -8,7 +8,7 @@ const Experience = () => {
     const experiences = [
         {
             role: "Technical Lead",
-            company: "HCL Technologies, Noida, Uttar Pradesh",
+            company: "HCLTech, Noida, Uttar Pradesh",
             duration: "Sep 2025 - Present",
             logo: hcllogo,
             points: [
@@ -18,7 +18,7 @@ const Experience = () => {
         
         {
             role: "AI & Data Science Intern",
-            company: "HCL Technologies, Chennai",
+            company: "HCLTech, Chennai",
             duration: "May 2024 - July 2024",
             logo: hcllogo,
             points: [

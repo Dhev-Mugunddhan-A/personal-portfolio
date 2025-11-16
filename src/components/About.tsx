@@ -32,9 +32,9 @@ const About = () => (
                 <div className="md:w-2/3">
                     <div className="bg-white/10 backdrop-blur-md rounded-2xl p-8 shadow-lg border border-white/10">
                         <p className="text-lg leading-relaxed text-blue-100 mb-6">
-                            Hi, I&apos;m <span className="text-white font-semibold">Dhev Mugunddhan A</span> — a 
+                            Hi, I&apos;m <span className="text-white font-semibold">Dhev Mugunddhan A</span> — a  
                             <strong className="text-white font-semibold"> Technical Lead</strong> 
-                            at <span className="text-white font-semibold">HCL Technologies</span>, specializing in developing and deploying innovative Generative AI solutions. Graduated with a B.Tech in Artificial Intelligence and Data Science (CGPA: 9.3/10.0) from Shiv Nadar University, Chennai.
+                             at <span className="text-white font-semibold">HCLTech</span>, specializing in developing and deploying innovative Generative AI solutions. Graduated with a B.Tech in Artificial Intelligence and Data Science (CGPA: 9.3/10.0) from Shiv Nadar University, Chennai.
                         </p>
 
                         {/* <p className="text-lg leading-relaxed text-blue-100 mb-6">
@@ -54,25 +54,25 @@ const About = () => (
 
                         <p className="text-lg leading-relaxed text-blue-100 mb-6">
                             During my <strong className="text-white font-semibold">tenure at HCL Technologies</strong>, 
-                            I have contributed across multiple roles, progressing from an intern to a 
-                            <strong className="text-white font-semibold">Technical Lead</strong>. 
-                            In my current position, I architected a 
-                            <strong className="text-white font-semibold">proactive monitoring system powered by Generative AI agents</strong> 
+                            I have contributed across multiple roles, progressing from an intern to a  
+                            <strong className="text-white font-semibold"> Technical Lead</strong>. 
+                            In my current position, I architected a  
+                            <strong className="text-white font-semibold"> proactive monitoring system powered by Generative AI agents</strong> 
                             (LangChain, OpenAI) capable of autonomously parsing logs, detecting failures, and generating 
-                            intelligent healing recommendations. I engineered a 
-                            <strong className="text-white font-semibold">prompt-driven action generator</strong> to draft corrective 
+                            intelligent healing recommendations. I engineered a  
+                            <strong className="text-white font-semibold"> prompt-driven action generator</strong> to draft corrective 
                             messages for classified failures and integrated the system with 
-                            <strong className="text-white font-semibold">Microsoft Teams using the Graph API</strong>, enabling a 
+                            <strong className="text-white font-semibold"> Microsoft Teams using the Graph API</strong>, enabling a 
                             fully automated, self-healing operational workflow.
                             <br /><br />
                             Earlier, as an intern, I developed and deployed 
-                            <strong className="text-white font-semibold">commodity price forecasting systems</strong>, designed 
-                            <strong className="text-white font-semibold">cloud-integrated databases</strong>, and explored 
-                            <strong className="text-white font-semibold">GenAI-driven supply chain optimization</strong>. 
+                            <strong className="text-white font-semibold"> commodity price forecasting systems</strong>, designed 
+                            <strong className="text-white font-semibold"> cloud-integrated databases</strong>, and explored 
+                            <strong className="text-white font-semibold"> GenAI-driven supply chain optimization</strong>. 
                             I have also built projects such as 
-                            <strong className="text-white font-semibold">skin lesion classification models</strong>, 
-                            <strong className="text-white font-semibold">abstractive summarization consistency evaluators</strong>, 
-                            and a <strong className="text-white font-semibold">Flask-based movie recommendation system</strong>.
+                            <strong className="text-white font-semibold"> skin lesion classification models</strong>, 
+                            <strong className="text-white font-semibold"> abstractive summarization consistency evaluators</strong>, 
+                            and a <strong className="text-white font-semibold"> Flask-based movie recommendation system</strong>.
                         </p>
 
                         <p className="text-lg leading-relaxed text-blue-100">
