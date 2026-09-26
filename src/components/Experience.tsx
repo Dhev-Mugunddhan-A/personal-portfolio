@@ -8,17 +8,28 @@ const Experience = () => {
     const experiences = [
         {
             role: "Technical Lead",
-            company: "HCLTech, Noida, Uttar Pradesh",
+            company: "HCLTech, Chennai, Tamilnadu, India",
             duration: "Sep 2025 - Present",
             logo: hcllogo,
             points: [
-                " Developed a proactive monitoring system using Generative AI agents (LangChain, OpenAI) to autonomously parse logs, detect failures, and generate healing suggestions. Engineered a prompt-based action generator to draft corrective messages from classified failures. Integrated the AI output with MS Teams via the Graph API, enabling a fully automated self-healing workflow." 
+                <>
+                    <strong>Engineered &amp; Deployed Scalable Serverless Infrastructure:</strong> Architected, developed, and maintained a mission-critical, event-driven serverless ecosystem in Python on AWS for the Scania enterprise project, owning the full SDLC from core development and SIT/UAT validation to production deployment and tier-3 support.
+                </>,
+                <>
+                    <strong>Managed Large-Scale Enterprise Footprint:</strong> Maintained a high-throughput codebase distributed across 20+ mono-repos (hundreds of thousands of lines of code) and an extensive AWS footprint comprising 100+ Lambda functions, 10+ Step Functions workflows, API Gateway, ElastiCache (Redis), S3, EC2, OpenSearch, and granular IAM security configurations.
+                </>,
+                <>
+                    <strong>Driven AI Innovation & Observability:</strong> Developed a proactive monitoring and self-healing system using LangChain and OpenAI to autonomously parse logs, classify failures, and trigger corrective actions via MS Teams (Graph API integration); ideated Agentic AI workflows that optimized SDLC processes and accelerated L2 support resolution.
+                </>,
+                <>
+                    <strong>Leadership & Talent Acquisition:</strong> Led technical hiring initiatives by conducting 100+ Technical Round 1 (TP1) interviews and provided direct mentorship to onboard and upskill 5 new team members.
+                </>
             ],
         },
         
         {
             role: "AI & Data Science Intern",
-            company: "HCLTech, Chennai",
+            company: "HCLTech, Chennai, Tamilnadu, India",
             duration: "May 2024 - July 2024",
             logo: hcllogo,
             points: [
@@ -30,7 +41,7 @@ const Experience = () => {
         },
         {
             role: "Paid AI & Data Science Content Creator",
-            company: "Internshala Data & AI Club",
+            company: "Internshala Data & AI Club, Remote",
             duration: "Oct 2023 - Feb 2024",
             logo: internshalalogo,
             points: [

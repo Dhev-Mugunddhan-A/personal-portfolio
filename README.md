@@ -77,6 +77,6 @@ Your portfolio will be live in minutes! Vercel will also automatically redeploy 
 ## 📄 License
 Distributed under the MIT License. See LICENSE for more information.
 ## 📫 Contact
-Dhev Mugunddhan A - mugunddhan3@gmail.com
+Dhev Mugunddhan A - dmugunddhan@gmail.com
 
 Project Link: https://github.com/Dhev-Mugunddhan-A/personal-portfolio

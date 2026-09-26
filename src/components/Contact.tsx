@@ -23,8 +23,8 @@ const Contact = () => (
             <div className="flex flex-col items-center gap-4 mb-10">
                 <p className="flex items-center gap-3 text-lg font-medium text-white/90 hover:text-cyan-300 transition">
                     <Mail className="w-5 h-5" />
-                    <a href="mailto:mugunddhan3@gmail.com" className="hover:underline">
-                        mugunddhan3@gmail.com
+                    <a href="mailto:dmugunddhan@gmail.com" className="hover:underline">
+                        dmugunddhan@gmail.com
                     </a>
                 </p>
             </div>
